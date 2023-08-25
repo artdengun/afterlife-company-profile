@@ -1,4 +1,4 @@
-<div th:fragment="head">
+<div th:fragment="head" xmlns:th="http://www.w3.org/1999/xhtml">
     <!DOCTYPE html>
     <html lang="en" th>
     
@@ -11,8 +11,8 @@
       <meta content="" name="keywords">
     
       <!-- Favicons -->
-      <link href="/assets/img/favicon.png" rel="icon">
-      <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <link th:href="@{../assets/img/logo.jpeg}" rel="icon">
+      <link th:href="@{../assets/img/logo.jpeg}" rel="apple-touch-icon">
     
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -51,19 +51,43 @@
               <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
               <li class="dropdown"><a href="#"><span>Project</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <li class="dropdown"><a href="#"><span>Small Apps</span> <i class="bi bi-chevron-right"></i></a>
                     <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
+                      <li><a href="#">Company Profile</a></li>
+                      <li><a href="#">Portofolio</a></li>
+                      <li><a href="#">Masjid Profile</a></li>
+                      <li><a href="#">Pesantren Profile</a></li>
+                      <li><a href="#">Promotion Website Profile</a></li>
+                      <li><a href="#">Promotion Universitas Profile</a></li>
+                      <li><a href="#">Custom Apps</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
+                  <li class="dropdown"><a href="#"><span>Enterprise Apps</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">SIMASJID</a></li>
+                      <li><a href="#">SIPESANTREN</a></li>
+                      <li><a href="#">SISEKOLAH</a></li>
+                      <li><a href="#">SIUNIVERSITAS</a></li>
+                      <li><a href="#">SIMRS</a></li>
+                      <li><a href="#">Custom Apps</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Java Backend Developer Training</a></li>
+                      <li><a href="#">Golang Backend Developer Training</a></li>
+                      <li><a href="#">Angular Developer Training</a></li>
+                      <li><a href="#">Android Developer Training</a></li>
+                      <li><a href="#">Ios Developer Training</a></li>
+                      <li><a href="#">Custom Training</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#"><span>Konsultasi</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">SKRIPSI</a></li>
+                      <li><a href="#">TESIS</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
 <!--              <li><a class="nav-link scrollto" href="#team">CTO</a></li>-->
