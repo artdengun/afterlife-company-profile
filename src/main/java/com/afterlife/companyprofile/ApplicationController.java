@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ApplicationController {
 
-    @GetMapping(value = "/afterlife/index")
+    @GetMapping(value = "/index")
     public String getIndex(){
         return "index";
     }
 
-    @GetMapping(value = "/afterlife/inner-page")
+    @GetMapping(value = "/inner-page")
     public String getInnerPage(){
         return "inner-page";
     }
