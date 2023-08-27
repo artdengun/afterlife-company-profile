@@ -15,4 +15,6 @@ public class ApplicationController {
     public String getInnerPage(){
         return "inner-page";
     }
+
+
 }
